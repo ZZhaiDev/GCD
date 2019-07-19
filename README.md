@@ -55,3 +55,10 @@ Any framework can run in background thread is thread safe, UIkit and core data a
 * Result
     - Safe Array: took 0.026 seconds, array.count == 1000.
     - Non Safe Array: Will Crash, or array.count << 1000.
+    
+### Other Resources.
+   * [Concurrency in Swift: Reader Writer Lock](https://medium.com/@dmytro.anokhin/concurrency-in-swift-reader-writer-lock-4f255ae73422)
+   * [Dispatch Barriers in Swift 3](https://medium.com/@oyalhi/dispatch-barriers-in-swift-3-6c4a295215d6)
+   * [Creating Thread-Safe Arrays in Swift](https://basememara.com/creating-thread-safe-arrays-in-swift/)
+   * [Create thread safe array in Swift](https://stackoverflow.com/questions/28191079/create-thread-safe-array-in-swift)
+   * [Swift 线程安全数组](https://bignerdcoding.com/archives/58.html)
