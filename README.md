@@ -1,4 +1,9 @@
 # GCD
+**必看**
+ - https://juejin.im/user/2488950054725101/posts
+ - [NSOperationQueue](https://juejin.im/post/6844903570467192845)
+ - [GCD](https://juejin.im/post/6844903566398717960)
+ - [RunLoop](https://juejin.im/post/6844903808577830926)
 #### GCD 要点
 * 同步执行（sync）vs 异步执行（async）
 * 队列（Dispatch Queue），串行队列（Serial Dispatch Queue），并发队列（Concurrent Dispatch Queue），主队列（Main Dispatch Queue），全局并发队列（Global Dispatch Queue）
