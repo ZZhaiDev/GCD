@@ -47,7 +47,7 @@ Any framework can run in background thread is thread safe, UIkit and core data a
       private let concurrentQueue = DispatchQueue(label: "concurrentQueue", attributes: .concurrent)
       private var array = [T]()
       public func append(_ value: T) {
-          concurrentQueue.sync(flags: .barrier) { self.array.append(value)  }
+          concurrentQueue.async(flags: .barrier) { self.array.append(value)  }
       }
       var last: T? {
           var result: T?
